@@ -12,9 +12,9 @@ const server = jsonServer.create()
 // const router = jsonServer.router(db)
 
 // Comment out to allow write operations
-// const router = jsonServer.router('db.json')
+const router = jsonServer.router('db.json')
 
-// const middlewares = jsonServer.defaults()
+const middlewares = jsonServer.defaults()
 
 server.use(middlewares)
 // Add this before server.use(router)
