@@ -1,9 +1,17 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "blogs": [
+    { 
+      "id": 1, 
+      "title": "json-server",
+      "date": "8/8/2024",
+      "body": "typicode", 
+      "imageUrl":[]
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "admin": [
+      {
+        "email": "lightcietechltd@gmail.com",
+        "password": "lightcietech123"
+      }
+    ]
 }
